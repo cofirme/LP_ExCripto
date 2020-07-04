@@ -20,7 +20,7 @@ int main(){
 
 		x = strlen(str);                //conta o tamanho da string
 
-		while(j < x){                       //realiza o deslocamento em 3 posiçoes da tabela ASCII
+		while(j < x){                       //realiza o deslocamento em 3 posiÃ§oes da tabela ASCII
 
 			if(str[j] >= 'a' && str[j] <= 'z'){
 				str[j] = str[j] + 3;
@@ -42,7 +42,7 @@ int main(){
 		printf("\nPasso 2: \n");
 		printf("%s\n", str);
 
-		for(int a = x/2; a<x; a++){        //realiza o deslocamento de uma posição na tabela ASCII
+		for(int a = x/2; a<x; a++){        //realiza o deslocamento de uma posiÃ§Ã£o na tabela ASCII
 			str[a] -= 1;                    //da metade em diante
 		}
 
